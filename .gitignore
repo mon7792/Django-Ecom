@@ -1,3 +1,9 @@
-'db.sqlite3' 
-'__pycache__' 
-'fireworks.komodoproject' 
+db.sqlite3 
+__pycache__
+fireworks.komodoproject
+firework/__pycache__/
+firework/db.sqlite3
+firework/settings/__pycache__/
+fireworks.komodoproject
+home/__pycache__/
+home/migrations/__pycache__/
