@@ -115,9 +115,9 @@ SECRET_KEY = get_env_variable('SECRET_KEY')
 #Static file setting in Django
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, "static_in_env", "static_root")
+STATIC_ROOT = os.path.join(BASE_DIR, "static", "static_in_env", "static_root")
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static_in_pro", "our_static"),
+    os.path.join(BASE_DIR, "static","static_in_pro", "our_static"),
 ]
 
 MEDIA_URL = '/media/'
